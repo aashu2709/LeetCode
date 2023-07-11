@@ -11,7 +11,6 @@ public:
             
             sum=sum+digit;
             
-            
             n=n/10;
             
         }
