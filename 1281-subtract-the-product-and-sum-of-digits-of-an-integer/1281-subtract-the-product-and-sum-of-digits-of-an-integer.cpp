@@ -10,8 +10,7 @@ public:
                
             
             sum=sum+digit;
-            
-            n=n/10;
+              n=n/10;
             
         }
         
