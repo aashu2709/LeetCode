@@ -10,6 +10,7 @@ public:
             
             product=product*digit;                       
             
+            
             sum=sum+digit; 
             
             
