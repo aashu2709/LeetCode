@@ -17,5 +17,6 @@ public:
         int ans=product-sum;   
         
         return ans; 
+        
     }
 };
