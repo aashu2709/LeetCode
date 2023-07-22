@@ -7,7 +7,9 @@ public:
         while(n!=0){
             int digit=n%10;    
             
+            
             product=product*digit;  
+            
             
         
             
