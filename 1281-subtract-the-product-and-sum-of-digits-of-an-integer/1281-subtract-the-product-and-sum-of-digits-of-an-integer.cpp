@@ -8,7 +8,8 @@ public:
             
             product=product*digit;  
             
-            sum=sum+digit;                      
+            sum=sum+digit;    
+            
               n=n/10;               
         }                    
         int ans=product-sum;  
