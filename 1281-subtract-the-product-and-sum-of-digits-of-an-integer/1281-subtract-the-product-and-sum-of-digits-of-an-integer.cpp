@@ -12,7 +12,8 @@ public:
             
             
             
-            product=product*digit;            
+            product=product*digit;    
+            
             sum=sum+digit; 
               n=n/10;    
             
