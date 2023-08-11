@@ -9,10 +9,8 @@ public:
             sum=sum+digit;             
               n=n/10;             
         }                  
-        int ans=product-sum;    
-        
-          return ans;   
-        
+        int ans=product-sum;            
+          return ans;           
         }
     
 };
