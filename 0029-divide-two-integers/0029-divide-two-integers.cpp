@@ -11,6 +11,7 @@ public:
 		else if(dividend <= INT_MIN && divisor == -1) result = abs(INT_MAX);
         
 		else result  = dividend / divisor;
+        
     	return result;
 
     }
