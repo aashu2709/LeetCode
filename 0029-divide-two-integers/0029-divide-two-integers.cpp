@@ -1,7 +1,6 @@
 class Solution {
 public:
-    int divide(int dividend, int divisor) {
-        
+    int divide(int dividend, int divisor) {        
         int result;
         
 		if (dividend >= INT_MAX && divisor == 1)	result = INT_MAX;
