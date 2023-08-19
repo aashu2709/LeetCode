@@ -1,7 +1,6 @@
 class Solution {
 public:
     int subtractProductAndSum(int n) {   
-        
         int product=1;   
         
         int sum=0;  
@@ -21,7 +20,8 @@ public:
         
         int ans=product-sum;   
         
-          return ans;      
+          return ans;   
+        
         
         }    
     
