@@ -6,8 +6,7 @@ public:
         while(n!=0){                      
             int digit=n%10;     
             product=product*digit;                
-            sum=sum+digit;      
-            
+            sum=sum+digit;    
               n=n/10;      
             
         }         
