@@ -27,6 +27,7 @@ public:
         } else {
             for (int i = 0; i < (m + n) / 2; ++i) {
                 int _ = getMin(nums1, nums2);
+                
             }
             return getMin(nums1, nums2);
         }
