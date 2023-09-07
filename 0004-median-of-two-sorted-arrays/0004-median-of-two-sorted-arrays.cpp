@@ -5,6 +5,7 @@ public:
     // Get the smaller value between nums1[p1] and nums2[p2] and move the pointer forward.
 
     int getMin(vector<int>& nums1, vector<int>& nums2) {
+        
         if (p1 < nums1.size() && p2 < nums2.size()) {
             
             return nums1[p1] < nums2[p2] ? nums1[p1++] : nums2[p2++];
