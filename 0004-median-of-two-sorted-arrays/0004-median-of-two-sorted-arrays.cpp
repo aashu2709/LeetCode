@@ -7,6 +7,7 @@ public:
     int getMin(vector<int>& nums1, vector<int>& nums2) {
         if (p1 < nums1.size() && p2 < nums2.size()) {
             return nums1[p1] < nums2[p2] ? nums1[p1++] : nums2[p2++];
+            
         } else if (p1 < nums1.size()) {
             return nums1[p1++];
         } else if (p2 < nums2.size()) {
