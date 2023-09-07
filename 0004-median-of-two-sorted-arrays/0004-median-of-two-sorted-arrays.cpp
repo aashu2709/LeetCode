@@ -23,6 +23,7 @@ public:
         
         int m = int(nums1.size()), n = int(nums2.size());
         
+        
         if ((m + n) % 2 == 0) {
             for (int i = 0; i < (m + n) / 2 - 1; ++i) {
                 int _ = getMin(nums1, nums2);
