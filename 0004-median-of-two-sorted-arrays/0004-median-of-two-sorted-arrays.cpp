@@ -12,6 +12,7 @@ public:
             return nums1[p1] < nums2[p2] ? nums1[p1++] : nums2[p2++];
             
         } else if (p1 < nums1.size()) {
+            
             return nums1[p1++];
         } else if (p2 < nums2.size()) {
             return nums2[p2++];
