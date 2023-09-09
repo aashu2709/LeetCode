@@ -15,6 +15,7 @@ public:
             
         } else if (p1 < nums1.size()) {
             
+            
             return nums1[p1++];
         } else if (p2 < nums2.size()) {
             
