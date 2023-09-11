@@ -37,6 +37,7 @@ public:
         if ((m + n) % 2 == 0) {
             
             for (int i = 0; i < (m + n) / 2 - 1; ++i) {
+                
                 int _ = getMin(nums1, nums2);
             }
             return (double)(getMin(nums1, nums2) + getMin(nums1, nums2)) / 2;
