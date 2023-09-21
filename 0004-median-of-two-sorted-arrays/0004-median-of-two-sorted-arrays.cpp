@@ -48,6 +48,7 @@ public:
             return (double)(getMin(nums1, nums2) + getMin(nums1, nums2)) / 2;
             
         } else {
+            
             for (int i = 0; i < (m + n) / 2; ++i) {
                 
                 
