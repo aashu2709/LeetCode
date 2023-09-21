@@ -56,6 +56,7 @@ public:
                 int _ = getMin(nums1, nums2);
                 
             }
+            
             return getMin(nums1, nums2);
         }
             
