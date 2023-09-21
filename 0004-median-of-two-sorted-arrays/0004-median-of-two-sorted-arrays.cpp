@@ -58,6 +58,7 @@ public:
             }
             
             return getMin(nums1, nums2);
+            
         }
             
         return -1;
