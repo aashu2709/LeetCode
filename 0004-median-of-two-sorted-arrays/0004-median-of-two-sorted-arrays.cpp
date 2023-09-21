@@ -21,6 +21,7 @@ public:
             
             
             return nums1[p1++];
+            
         } else if (p2 < nums2.size()) {
             
             return nums2[p2++];
