@@ -11,10 +11,8 @@ public:
             int digit=n%10;
                         
             product=product*digit;   
-            
-            sum=sum+digit;   
-            
-              n=n/10;       
+            sum=sum+digit;     
+            n=n/10;       
         }               
         
          int ans=product-sum;
