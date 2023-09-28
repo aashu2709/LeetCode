@@ -14,7 +14,8 @@ public:
             sum=sum+digit;     
             n=n/10;       
         }             
-        int ans=product-sum;                
+        int ans=product-sum;   
+        
           return ans;         
         
         }        
