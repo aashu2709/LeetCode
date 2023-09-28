@@ -11,6 +11,7 @@ public:
             
             
             int digit=n%10;
+            
                         
             product=product*digit;   
             
