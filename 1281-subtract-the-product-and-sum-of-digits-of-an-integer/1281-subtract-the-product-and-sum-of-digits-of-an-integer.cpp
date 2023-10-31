@@ -11,7 +11,8 @@ public:
             int digit=n%10;   
             
             
-            product=product*digit;       
+            product=product*digit;     
+            
             
             sum=sum+digit;   
             
