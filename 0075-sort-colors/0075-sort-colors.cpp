@@ -10,6 +10,7 @@ public:
          swap(nums[low], nums[mid]);
           
          low++;
+          
          mid++;
           
       }
