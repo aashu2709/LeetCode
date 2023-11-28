@@ -5,6 +5,7 @@ public:
         int n=nums.size();
         
    int low = 0;
+        
    int high = n-1;   
         
    int mid = 0;
