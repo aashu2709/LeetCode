@@ -29,7 +29,6 @@ public:
       else if(nums[mid] == 1){
           
           mid++;
-          
       }
               
       else{
