@@ -10,6 +10,7 @@ public:
         
    while(mid <= high){
        
+       
       if(nums[mid] == 0){
           
          swap(nums[low], nums[mid]);
