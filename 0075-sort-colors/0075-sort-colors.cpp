@@ -10,7 +10,8 @@ public:
          swap(nums[low], nums[mid]);
          low++; 
           
-         mid++;    
+         mid++; 
+          
       }  
       else if(nums[mid] == 1){
           mid++;
