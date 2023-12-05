@@ -14,12 +14,14 @@ public:
           
          mid++; 
           
+          
       }  
       else if(nums[mid] == 1){
           
           mid++;
       }      
       else{
+          
          swap(nums[mid], nums[high]);
                     
          high--;
