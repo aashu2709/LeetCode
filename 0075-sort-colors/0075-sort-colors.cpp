@@ -10,6 +10,7 @@ public:
        
       if(nums[mid] == 0){ 
          swap(nums[low], nums[mid]);
+          
          low++; 
           
          mid++; 
