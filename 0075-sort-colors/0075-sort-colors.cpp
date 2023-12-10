@@ -12,7 +12,6 @@ public:
          mid++; 
       }  
       else if(nums[mid] == 1){
-          
           mid++;
       }      
        
