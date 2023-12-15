@@ -23,7 +23,8 @@ public:
           mid++;
       }      
       else{
-         swap(nums[mid], nums[high]);        
+         swap(nums[mid], nums[high]);   
+          
          high--;  
          } 
       }
