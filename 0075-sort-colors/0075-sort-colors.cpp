@@ -5,7 +5,8 @@ public:
         
            int low = 0;
         
-   int high = n-1;  
+   int high = n-1; 
+        
    int mid = 0;    
    while(mid <= high){
       if(nums[mid] == 0){ 
