@@ -10,6 +10,7 @@ public:
             
             if(nums[i] != nums[i - 1]){
                 
+                
                 nums[j] = nums[i];
                 
                 j++;
