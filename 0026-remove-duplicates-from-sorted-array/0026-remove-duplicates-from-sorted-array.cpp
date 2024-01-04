@@ -11,8 +11,6 @@ public:
                 j++;  
             } 
         }
-        
-        
         return j;
     }
     
