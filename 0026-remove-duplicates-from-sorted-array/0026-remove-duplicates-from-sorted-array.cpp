@@ -13,6 +13,7 @@ public:
                 
                 nums[j] = nums[i];
                 
+                
                 j++;  
                 
                 
