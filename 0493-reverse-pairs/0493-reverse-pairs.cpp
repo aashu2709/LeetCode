@@ -5,6 +5,7 @@ void merge(vector<int>&arr,int low,int mid,int high,int &cnt){
     int r=j;
     int c=0;
     vector<int>v;
+    
      while(i<=mid){
         while(r<=high and arr[i]>(long long)2*arr[r]){
             c++;
