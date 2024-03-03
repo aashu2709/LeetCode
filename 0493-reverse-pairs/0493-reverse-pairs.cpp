@@ -22,6 +22,7 @@ void merge(vector<int>&arr,int low,int mid,int high,int &cnt){
 }
 
    void mergesort(vector<int>&arr,int low,int high,int &cnt){
+       
        if(low<high){
       int mid=low+(high-low)/2;
       mergesort(arr,low,mid,cnt);
