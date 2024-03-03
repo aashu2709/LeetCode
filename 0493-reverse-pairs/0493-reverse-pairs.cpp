@@ -10,6 +10,7 @@ void merge(vector<int>&arr,int low,int mid,int high,int &cnt){
             c++;
             r++;
         }
+         
         cnt+=c;
         
           while(j<=high and arr[j]<=arr[i])v.push_back(arr[j++]);
